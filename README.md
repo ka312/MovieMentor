@@ -22,6 +22,13 @@ Before running the project, ensure you have the following dependencies installed
 - **MongoDB Atlas** account (for hosting the movie database and logging interactions)
 - **OpenAI API Key** (for accessing GPT models)
 
+## Technologies Used
+Python: The main programming language for the chatbot.
+MongoDB Atlas: Cloud-based NoSQL database to store movie data and user interactions.
+OpenAI GPT-4: Used for generating chatbot responses.
+Streamlit: A Python library to build the user interface.
+LangChain: A library to integrate the GPT model with the chatbot.
+
 ### Install Dependencies
 
 You can install the required libraries by running the following:
