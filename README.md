@@ -79,3 +79,5 @@ streamlit run chatbot_ui.py
 ```
 
 3. This will launch the UI in your web browser where you can interact with the chatbot.
+
+![MovieMentor](Screenshot 2025-02-14 001200.png)
