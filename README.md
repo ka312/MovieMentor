@@ -1,5 +1,5 @@
 # MovieMentor
-Chatbot for Movie recommendation
+Chatbot for Movie recommendation usning LLM'S and MongoDB Atlas
 
 # Movie Mentor Chatbot
 
