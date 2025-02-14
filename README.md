@@ -28,6 +28,13 @@ Before running the project, ensure you have the following dependencies installed
 - **MongoDB Atlas**: Cloud-based NoSQL database to store movie data and user interactions.
 - **OpenAI GPT-4**: Used for generating chatbot responses.
 - **Streamlit**: A Python library to build the user interface.
+- To run the Streamlit interface:
+
+  First, make sure you are in the project directory.
+  Run the following command:
+  '''bash
+  streamlit run chatbot_ui.py
+
 - **LangChain**: A library to integrate the GPT model with the chatbot.
 
 
