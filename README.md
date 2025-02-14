@@ -82,3 +82,6 @@ streamlit run chatbot_ui.py
 
 ![MovieMentor](Screenshot%202025-02-14%20001200.png)
 
+## Contact
+
+Connect to me on [LinkedIn]https://www.linkedin.com/in/karan-sai-goud-katam-ab93161b7/
