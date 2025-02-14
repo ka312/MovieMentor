@@ -4,7 +4,7 @@ Chatbot for Movie recommendation
 # Movie Mentor Chatbot
 
 Movie Mentor is an AI-driven chatbot designed to recommend movies based on user input. It integrates with MongoDB to store and fetch movie data, and uses OpenAI's GPT-based model to generate responses. The chatbot provides recommendations and interacts with users in a conversational manner, offering a personalized experience.
-![MovieMentor](chatbot_ui_screenshot.png)
+![MovieMentor](screenshot.png)
 
 ## Project Overview
 
