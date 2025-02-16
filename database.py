@@ -23,6 +23,12 @@ def search_movies(query):
     results = collection.find({"title": {"$regex": query, "$options": "i"}}).limit(5)
     return list(results)
 
+def get_interactions_collection():
+    client = get_mongo_client()
+    db = client["chatbot_interactions"]  # New database to store interactions
+    return db["interactions"]  # Interactions collection
+
+
 def store_interaction(user_input, bot_response, movies_found):
     collection = get_interactions_collection()
     interaction_data = {
@@ -33,7 +39,3 @@ def store_interaction(user_input, bot_response, movies_found):
     }
     collection.insert_one(interaction_data)
 
-def get_interactions_collection():
-    client = get_mongo_client()
-    db = client["chatbot_interactions"]  # New database to store interactions
-    return db["interactions"]  # Interactions collection
